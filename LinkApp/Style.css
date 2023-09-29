@@ -1,0 +1,78 @@
+body{
+    background-color: black ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.background{
+    position: absolute;
+    height: 1080px;
+    width: 2000;
+    opacity: 0.1;
+    top:0;
+    left:0;
+    z-index: -1;
+
+
+}
+.container{
+    max-height: 150px;
+    width: 80%;
+    margin:10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+@keyframes example{
+  
+  0%  { height: 90px; width: 90px;}
+  50%  {height: 120px; width: 120px;}
+  100%  {height: 90px; width: 90px; }
+  
+}
+
+.cerchio{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+   
+    Background-color: rgb(255, 230, 0);
+    border-radius: 50%;
+ 
+  }
+.immagineprofilo{
+   position: relative;
+   align-items: center;
+   animation-name: example;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   width: 120px;
+   height:120px;
+   border-radius: 50%;
+   
+   
+    
+
+}
+.links{
+   
+    margin-left: auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin:5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow:visible;
+    
+}
+.Youtube{
+    font: bold;
+    margin-right: 40px;
+}
+
